@@ -27,7 +27,7 @@
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow factoryClass="com.ilyaproject.ai_assistant_plugin.UI.window.AiAssistantToolWindow"
-                    id="CustomToolWindow"
+                    id="AI assistant"
                     icon="/icons/icons8-code-16.png"
                     anchor="right"/>
     </extensions>
