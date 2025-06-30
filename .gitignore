@@ -1,43 +1,60 @@
 
 .gradle/
 build/
-
-
-*.iml
-.idea/
-
-
 out/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle-cache/
 
+
+.idea/
+*.iws
+*.iml
+*.ipr
+run/
+tmp/
 *.log
+
+
+.run/
 
 
 .DS_Store
 Thumbs.db
 
 
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/**/usage.statistics.xml
-.idea/**/dictionaries
-.idea/**/shelf
+*.log
+hs_err_pid*.log
 
 
 *.class
+
+
 *.jar
 *.war
 *.ear
 
 
-gen/
-generated/
+*.zip
 
 
-.idea/.idea_modules/
-.idea/modules.xml
-.idea/compiler.xml
+test-results/
+test-output/
 
-.idea/libraries/
-.idea/artifacts/
-.idea/assetWizardSettings.xml
-.idea/uiDesigner.xml
+
+.idea_modules/
+
+
+*.kotlin_module
+
+
+local.properties
+
+
+sandbox/
+
+
+node_modules/
+dist/
+
+
+*.hprof
