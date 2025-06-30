@@ -33,8 +33,6 @@
     </extensions>
     
     <actions>
-        <action id="testAction" class="com.ilyaproject.ai_assistant_plugin.actions.TestAction" icon="/icons/icons8-code-16.png" text="This is a test">
-            <add-to-group group-id="ToolsMenu"  anchor="first"></add-to-group>
-        </action>
+
     </actions>
 </idea-plugin>
