@@ -6,6 +6,7 @@ import java.nio.file.Path;
 
 public class JavaFileParser {
     public String javaFileToString(String filePath){
+        System.out.println(filePath);
         Path path = Path.of(filePath);
         StringBuilder file = new StringBuilder();
         readFile(path, file);
@@ -19,8 +20,9 @@ public class JavaFileParser {
                 file.append(str)
                         .append("\n");
             }
+            System.out.println(file.toString());
         }catch (Exception e){
-            System.out.println("Failed to read file " + e);
+            System.out.println("Failed to read file to Path "+ path.toString() + " " + e);
         }
     }
 }

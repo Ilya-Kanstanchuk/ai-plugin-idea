@@ -16,8 +16,6 @@ public class CustomPanel {
     private final FileHelper helper = new FileHelper();
     public CustomPanel(Project project){
         this.project = project;
-    }
-    public CustomPanel(){
         button.addActionListener(e ->{
             String prompt = text.getText();
             String filePath = null;
@@ -28,6 +26,7 @@ public class CustomPanel {
             }
             if (filePath != null){
                 handler.run(prompt, filePath);
+                System.out.println("Assistant was activated");
             }else {
                 System.out.println("File Path is null");
             }
